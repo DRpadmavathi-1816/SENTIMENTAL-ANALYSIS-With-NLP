@@ -65,28 +65,28 @@ jupyter notebook "Sentimental Analysis using TF-IDF.ipynb"
 
 The notebook will:
 
-Fetch the sample Twitter dataset (≈1.6 M rows) from GitHub.
+- Fetch the sample Twitter dataset (≈1.6 M rows) from GitHub.
 You can comment out the download line and point url to a local file instead.
 
-Clean the text (lower-casing, punctuation removal, stop-word filtering, lemmatisation).
+- Clean the text (lower-casing, punctuation removal, stop-word filtering, lemmatisation).
 
-Convert text to a sparse TF-IDF matrix (max_features=5000 by default).
+- Convert text to a sparse TF-IDF matrix (max_features=5000 by default).
 
-Split the data into 80 % train / 20 % test with a fixed random_state for reproducibility.
+- Split the data into 80 % train / 20 % test with a fixed random_state for reproducibility.
 
-Fit a Logistic Regression classifier with L2 regularisation.
+- Fit a Logistic Regression classifier with L2 regularisation.
 
-Evaluate accuracy, precision, recall & F1 and plot a confusion-matrix heat-map.
+- Evaluate accuracy, precision, recall & F1 and plot a confusion-matrix heat-map.
 
 
 🔄 Customising for own data
 
 What to change	Where	Typical tweak
 
-Data source	url = ...	Replace with local CSV path or pd.read_json(...)
-Text column name	df['review']	Rename to your column
-Label column name	df['sentiment']	Rename (positive, negative, neutral, etc.)
-Language / preprocessing	preprocess_text()	Add
+- Data source	url = ...	Replace with local CSV path or pd.read_json(...)
+- Text column name	df['review']	Rename to your column
+- Label column name	df['sentiment']	Rename (positive, negative, neutral, etc.)
+- Language / preprocessing	preprocess_text()	Add
 
 📈 Expected results
 
@@ -102,26 +102,25 @@ Negative      5 890      1 210
 Positive      1 050      5 930
 
 
----
 
 📝 Experiment tracking
 
-For serious experimentation, consider:
+- For serious experimentation, consider:
 
-Adding MLflow for parameter tracking.
+- Adding MLflow for parameter tracking.
 
-Saving the fitted model with joblib.
+- Saving the fitted model with joblib.
 
-Performing cross-validation (GridSearchCV) to tune C and max_features.
+- Performing cross-validation (GridSearchCV) to tune C and max_features.
 
 
 ⚠️ Troubleshooting
 
 Symptom	Fix
 
-MemoryError during TF-IDF	Lower max_features or batch-process data
-Poor accuracy	Check class-balance, try stratified split
-UnicodeDecodeError on load	Ensure correct file encoding, e.g. encoding='utf-8-sig'
+- MemoryError during TF-IDF	Lower max_features or batch-process data
+- Poor accuracy	Check class-balance, try stratified split
+- UnicodeDecodeError on load	Ensure correct file encoding, e.g. encoding='utf-8-sig'
 
 
 
@@ -144,10 +143,10 @@ Pull requests are welcome! Please open an issue first to discuss significant cha
 
 📜 License
 
-This project is released under the MIT License. See LICENSE for details.
+- This project is released under the MIT License. See LICENSE for details.
 
 
 🙏 Acknowledgements
 
-Twitter Sentiment dataset courtesy of the Kaggle community.
+- Twitter Sentiment dataset courtesy of the Kaggle community.
 
