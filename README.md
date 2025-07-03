@@ -1,5 +1,5 @@
 Sentiment Analysis using TF-IDF & Logistic Regression
- -Company 
+- Company 
 Name 
 
 This repository contains a self-contained, beginner-friendly notebook that walks through building a classical Sentiment Analysis pipeline:
