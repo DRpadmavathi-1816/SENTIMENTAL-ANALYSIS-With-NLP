@@ -1,7 +1,7 @@
 Sentiment Analysis using TF-IDF & Logistic Regression
 - Company  : CODETECH IT SOLUTIONS PVT
 - Name     : Dhupam Renuka Padmavathi 
-- Intern Id :
+- Intern Id : CT06DF7
 - Domain    : Machine learning 
 - Duration : 6 weeks 
 - Mentor: Neela Santosh Kumar 
