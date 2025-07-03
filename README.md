@@ -1,7 +1,9 @@
 Sentiment Analysis using TF-IDF & Logistic Regression
+INTERNSHIP INFORMATION 
+- Task : SENTIMENTAL ANALYSIS With NLP 
 - Company  : CODETECH IT SOLUTIONS PVT
 - Name     : Dhupam Renuka Padmavathi 
-- Intern Id : CT06DF7
+- Intern Id : CT06DF769
 - Domain    : Machine learning 
 - Duration : 6 weeks 
 - Mentor: Neela Santosh Kumar 
@@ -24,14 +26,8 @@ This repository contains a self-contained, beginner-friendly notebook that walks
 
 📂 Repository structure
 
-.
-├── Sentimental Analysis using TF-IDF.ipynb  # Main tutorial notebook
-└── README.md                                # You are here
-
-(If you convert the notebook to a plain .py script the same steps and function names apply.)
-
-
----
+- Sentimental Analysis using TF-IDF.ipynb    #Main tutorial notebook
+- #README.md                                
 
 🛠️ Prerequisites
 
@@ -48,27 +44,23 @@ seaborn	0.14	pip install seaborn
 Create an isolated environment (recommended):
 
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt  # optional helper file
+source .venv/bin/activate  
+pip install -r requirements.txt  
+
+🚀 Quick-start 
+
+- Clone or download the repository.
 
 
----
-
-🚀 Quick-start
-
-1. Clone or download the repository.
+- Verify the dependencies above are installed.
 
 
-2. Verify the dependencies above are installed.
-
-
-3. Open the notebook:
+- Open the notebook:
 
 jupyter notebook "Sentimental Analysis using TF-IDF.ipynb"
 
 
-4. Run all cells (Kernel ▸ Restart & Run All).
-
+- Run all cells (Kernel ▸ Restart & Run All).
 
 
 The notebook will:
@@ -87,23 +79,14 @@ Fit a Logistic Regression classifier with L2 regularisation.
 Evaluate accuracy, precision, recall & F1 and plot a confusion-matrix heat-map.
 
 
-
----
-
-🔄 Customising for your own data
+🔄 Customising for own data
 
 What to change	Where	Typical tweak
 
 Data source	url = ...	Replace with local CSV path or pd.read_json(...)
 Text column name	df['review']	Rename to your column
 Label column name	df['sentiment']	Rename (positive, negative, neutral, etc.)
-Language / preprocessing	preprocess_text()	Add language-specific rules, e.g. stemming
-Vectoriser size	TfidfVectorizer(max_features=5000)	Increase for larger vocab
-Algorithm	LogisticRegression()	Swap for SVM, XGBoost or neural nets
-
-
-
----
+Language / preprocessing	preprocess_text()	Add
 
 📈 Expected results
 
@@ -132,9 +115,6 @@ Saving the fitted model with joblib.
 Performing cross-validation (GridSearchCV) to tune C and max_features.
 
 
-
----
-
 ⚠️ Troubleshooting
 
 Symptom	Fix
@@ -145,22 +125,21 @@ UnicodeDecodeError on load	Ensure correct file encoding, e.g. encoding='utf-8-si
 
 
 
----
 
 🤝 Contributing
 
 Pull requests are welcome! Please open an issue first to discuss significant changes.
 
-1. Fork the repo and create your branch: git checkout -b feature/foo
+- Fork the repo and create your branch: git checkout -b feature/foo
 
 
-2. Commit your changes: git commit -m 'Add some foo'
+- Commit your changes: git commit -m 'Add some foo'
 
 
-3. Push to the branch: git push origin feature/foo
+- Push to the branch: git push origin feature/foo
 
 
-4. Open a Pull Request
+- Open a Pull Request
 
 
 📜 License
