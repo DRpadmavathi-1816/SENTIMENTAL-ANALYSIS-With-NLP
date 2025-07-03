@@ -1,6 +1,10 @@
 Sentiment Analysis using TF-IDF & Logistic Regression
-- Company 
-Name 
+- Company  : CODETECH IT SOLUTIONS PVT
+- Name     : Dhupam Renuka Padmavathi 
+- Intern Id :
+- Domain    : Machine learning 
+- Duration : 6 weeks 
+- Mentor: Neela Santosh Kumar 
 
 This repository contains a self-contained, beginner-friendly notebook that walks through building a classical Sentiment Analysis pipeline:
 
