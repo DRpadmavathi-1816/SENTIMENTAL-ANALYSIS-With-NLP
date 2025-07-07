@@ -6,7 +6,7 @@ INTERNSHIP INFORMATION
 - Intern Id : CT06DF769
 - Domain    : Machine learning 
 - Duration : 6 weeks 
-- Mentor: Neela Santosh Kumar 
+- Mentor: Neela Santosh 
 
 This repository contains a self-contained, beginner-friendly notebook that walks through building a classical Sentiment Analysis pipeline:
 
