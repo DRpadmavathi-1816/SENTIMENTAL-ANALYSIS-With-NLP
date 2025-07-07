@@ -1,4 +1,4 @@
-Sentiment Analysis using TF-IDF & Logistic Regression
+# Sentiment Analysis using TF-IDF & Logistic Regression
 INTERNSHIP INFORMATION 
 - Task : SENTIMENTAL ANALYSIS With NLP 
 - Company  : CODETECH IT SOLUTIONS PVT
@@ -24,7 +24,7 @@ This repository contains a self-contained, beginner-friendly notebook that walks
 
 5. 📊 Evaluation & visualzation 
 
-📂 Repository structure
+# 📂 Repository structure
 
 - Sentimental Analysis using TF-IDF.ipynb    #Main tutorial notebook
 - #README.md                                
@@ -33,12 +33,12 @@ This repository contains a self-contained, beginner-friendly notebook that walks
 
 Package	Tested version	Install
 
-Python	3.9+	—
-pandas	2.2	pip install pandas
-numpy	1.26	pip install numpy
-scikit-learn	1.5	pip install scikit-learn
-matplotlib	3.9	pip install matplotlib
-seaborn	0.14	pip install seaborn
+# Python	3.9+	—
+- pandas	2.2	pip install pandas
+- numpy	1.26	pip install numpy
+- scikit-learn	1.5	pip install scikit-learn
+- matplotlib	3.9	pip install matplotlib
+- seaborn	0.14	pip install seaborn
 
 
 Create an isolated environment (recommended):
@@ -79,7 +79,7 @@ You can comment out the download line and point url to a local file instead.
 - Evaluate accuracy, precision, recall & F1 and plot a confusion-matrix heat-map.
 
 
-🔄 Customising for own data
+# 🔄 Customising for own data
 
 What to change	Where	Typical tweak
 
@@ -103,7 +103,7 @@ Positive      1 050      5 930
 
 
 
-📝 Experiment tracking
+# 📝 Experiment tracking
 
 - For serious experimentation, consider:
 
@@ -114,7 +114,7 @@ Positive      1 050      5 930
 - Performing cross-validation (GridSearchCV) to tune C and max_features.
 
 
-⚠️ Troubleshooting
+# ⚠️ Troubleshooting
 
 Symptom	Fix
 
@@ -125,7 +125,7 @@ Symptom	Fix
 
 
 
-🤝 Contributing
+# 🤝 Contributing
 
 Pull requests are welcome! Please open an issue first to discuss significant changes.
 
@@ -141,12 +141,12 @@ Pull requests are welcome! Please open an issue first to discuss significant cha
 - Open a Pull Request
 
 
-📜 License
+# 📜 License
 
 - This project is released under the MIT License. See LICENSE for details.
 
 
-🙏 Acknowledgements
+# 🙏 Acknowledgements
 
 - Twitter Sentiment dataset courtesy of the Kaggle community.
 
